@@ -1,0 +1,38 @@
+- type: Diamond
+  sponsors:
+  - logo: acme.svg
+    name: Acme
+    url : https://sponsor-1.example.com/
+  - logo: snakeoil.svg
+    name: Acme 2
+    url : https://sponsor-2.example.com/
+    backgroundSize: 90% auto;
+- type: Platinum
+  sponsors:
+  - logo: snakeoil.svg
+    name: Sponsor 3
+    url : https://sponsor-3.example.com/
+- type: Gold
+  sponsors:
+  - logo: snakeoil.svg
+    name: Sponsor 4
+    url : https://sponsor-4.example.com/
+- type: Silver
+  sponsors:
+  - logo: snakeoil.svg
+    name: Sponsor 5
+    url : https://sponsor-5.example.com/
+- type: Lanyard
+  sponsors:
+  - logo: acme.svg
+    name: Sponsor 6
+    url : https://sponsor-6.example.com/
+- type: Dinner
+  sponsors:
+- type: Reception
+  sponsors:
+- type: Lunch
+  sponsors:
+- type: Coffee Breaks
+  sponsors:
+

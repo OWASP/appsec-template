@@ -1,0 +1,71 @@
+---
+layout: front
+title: OWASP AppSec Europe {{site.data.site.year}}
+---
+<div class="main front">
+   
+  <h2 style="text-align: center">Keynote speakers</h2>
+  <ul class="keynoters flex">
+    {% for item in site.data.keynoters %}
+      <li>
+        <a href="program/keynotes#{{item.name}}"><img src="assets/images/{{item.image}}" alt="{{item.name}}">
+        <h3>{{item.name}}</h3></a>
+      </li>
+    {% endfor %} 
+  </ul>
+
+<hr>
+
+<section class="about">
+<h2>Welcome to the AppSec Europe Conference</h2>
+
+<p>Welcome to OWASP Annual AppSec EU Security Conference, the premier application security conference for European developers and security experts. AppSec EU provides thought leadership, amazing talks, informative sessions, and great social experiences.</p>
+
+<p>During the pre-conference (xxxxx dates) there is the opportunity to attend one of the many trainings courses on offer from industry experts, plus project summits and outreach sessions to the future pioneers of the application security industry. More details on pre- conference activities can be found <a href="about/pre-conference">here</a>.</p>
+
+<p>The main conference (xxxxx dates) offers four full tracks of talks, for pentesters and ethical hackers, developers and security engineers, DevOps practices and GRC/risk level talks for managers and CISOs. More information on the activities in the main conference can be found <a href="about/conference">here</a>.</p>
+
+<h2>What Happens at an AppSec Europe Conference?</h2>
+
+<ul>
+  <li>Technical talks by experts in security, devops and cloud</li>
+  <li>Panels to debate tough topics</li>
+  <li>Training sessions for hands on learning in top security areas</li>
+  <li>Keynotes from industry leaders</li>
+  <li>Vendor booths to promote the latest advances in security technology</li>
+  <li>A variety of other activities such as recruiting fair, capture the flag, security tool training, and more</li>
+
+  <li style="margin-top: 1em">Check out the previous conferences to get even more information on what to expect:<ul>
+
+  <li><a href="https://2017.appsec.eu/">OWASP AppSec Europe 2017</a></li>
+  <li><a href="https://2016.appsec.eu/">OWASP AppSec Europe 2016</a></li>
+  <li><a href="https://2015.appsec.eu/">OWASP AppSec Europe 2015</a></li>
+  <li><a href="https://2014.appsec.eu/">OWASP AppSec Europe 2014</a></li>
+</ul></li></ul>
+</section>
+
+<section class="blue">
+<h2 style="text-align: center">Latest news about the conference</h2>
+<div style="display: flex; justify-content: space-around; ">
+<ul style="text-align: left;" class="news">
+{% for article in site.data.news | limit:3 %}
+<li><a href="{{article.url}}">{{article.title}}</a>
+  {{article.ingress}}
+</li>
+{% endfor %}
+</ul>
+</div>
+</section>
+
+
+  <h2 style="text-align: center">Thank you AppSec Europe {{site.data.site.year}} Sponsors</h2>
+  {% include sponsors.html %}
+
+<hr>
+<div class="nomargins">
+  <div class="tweets" style="margin: 0 auto; width: 350px;">
+  <a class="twitter-timeline" data-width="350" data-height="250" href="https://twitter.com/AppSecEU">Tweets by AppSecEU</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+</div>
+
+</div>

@@ -1,0 +1,84 @@
+conferenceteam:
+  - name: Some person
+    role: Conference Chair
+    image: owasp_logo.png
+  - name: Some person
+    role: Conference Co Chair
+    image: owasp_logo.png
+  - name: Some person
+    role: Training Chair
+    image: owasp_logo.png
+  - name: Some person
+    role: Team Member
+    image: owasp_logo.png
+  - name: Some person
+    role: Team Member
+    image: owasp_logo.png
+  - name: Some person
+    role: Speaker Chair
+    image: owasp_logo.png
+  - name: Some person
+    role: DevOps Speaker Chair
+    image: owasp_logo.png
+  - name: Some person
+    role: Team member
+    image: owasp_logo.png
+  - name: Some person
+    role: Team Member
+    image: owasp_logo.png
+staff: 
+  - name: Some person
+    role: Project Coordinator
+    image: owasp_logo.png
+  - name: Some person
+    role: IT
+    image: owasp_logo.png
+  - name: Some person
+    role: Event Manager
+    image: owasp_logo.png
+  - name: Some person
+    role: Membership and Business Liaison
+    image: owasp_logo.png
+  - name: Some person
+    role: Operations Director
+    image: owasp_logo.png
+  - name: Some person
+    role: Graphic Design
+    image: owasp_logo.png
+  - name: Some person
+    role: Accounting
+    image: owasp_logo.png
+  - name: Some person
+    role: Community Manager
+    image: owasp_logo.png
+cftcommittee:
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+programcommittee:
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person
+  - name: Some person

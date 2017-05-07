@@ -1,0 +1,46 @@
+- title: Register
+  url  : register
+- title: Sponsors
+  items:
+  - title: Become a sponsor
+    url  : sponsor/sponsoring
+  - title: Sponsors
+    url  : sponsor/sponsors
+  - title: Sponsor resources
+    url  : sponsor/sponsor-resources
+- title: Program
+  items:
+  - title: Full program
+    url: program/
+  - title: Training program
+    url: program/training
+  - title: Call for volunteers
+    url: program/call-for-volunteers
+  - title: University challenge
+    url: program/university-challenge
+- title: The City
+  items:
+  - title: Venue
+    url  : thecity/venue
+  - title: Conference dinner
+    url  : thecity/dinner
+  - title: Hotels
+    url  : thecity/hotel
+  - title: The City
+    url  : thecity/
+  - title: How to get there
+    url  : thecity/how-to-get-there
+- title: About
+  items:
+  - title: The Conference
+    url  : about/conference
+  - title: OWASP
+    url  : about/
+  - title: News
+    url  : news
+  - title: Diversity statement
+    url  : about/diversity-statement
+  - title: The Team
+    url  : about/team
+  - title: Contact
+    url  : about/contact

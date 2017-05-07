@@ -1,0 +1,10 @@
+- title       : Title of news article 1
+  url         : http://example.com/news/1
+  ingress     : |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget lacus lectus. Donec egestas, ex dictum facilisis cursus, tortor orci lobortis orci, eget venenatis velit metus vitae tortor. Proin efficitur magna nec risus rutrum cursus. Duis in quam varius, laoreet dui nec, ultricies neque. Donec pellentesque libero ut venenatis ornare. Vestibulum vel vehicula ex, sit amet egestas felis. Ut feugiat tortor sem, ac malesuada diam rhoncus semper.
+- title       : Title of news article 2
+  url         : http://example.com/news/2
+  ingress     : |
+    Sed vel rutrum nisi, sit amet varius nisl. Maecenas eget sodales magna, in ornare tellus. Sed rhoncus tincidunt porta. Morbi dolor ipsum, congue at dolor rutrum, porta tempor velit. Integer euismod scelerisque volutpat. Vestibulum malesuada rutrum massa nec ultrices. Maecenas elementum finibus neque, eget venenatis metus. Nam ornare aliquet leo eget pharetra. Fusce quis purus quis turpis dignissim hendrerit id sed ex.
+
+

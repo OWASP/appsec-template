@@ -1,0 +1,15 @@
+---
+title: Trainings
+---
+
+<h1>{{page.title}}</h1>
+
+<table class="arrowed full" style="max-width: 99em; font-size: 90%; width: 100%">
+<tr><th>Training</th><th>Mon 8th May</th><th  style="width: 10%">date from</th><th>date to</th></tr>
+{% for training in site.data.trainings %}
+	<tr><td class="noarrow"><a href="{{ training.url}}">{{training.title}}</a> - {{training.trainers}}</td>
+		{% assign skip = 3 | minus: training.length %}{% for i in (1..skip) %}<td class="noarrow"></td>{% endfor %}
+		<td colspan="{{ training.length }}" class="green"></td>
+	</tr>
+{% endfor %}
+</table>
